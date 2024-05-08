@@ -33,7 +33,7 @@ spec:
       - env:
         - name: MODEL_ENDPOINT
           value: http://0.0.0.0:8001
-        image: quay.io/ai-lab/codegen:latest
+        image: quay.io/yangcao/codegen:latest
         name: codegen-inference
         ports:
         - containerPort: 8501
