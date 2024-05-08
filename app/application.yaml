@@ -3,6 +3,12 @@ kind: Application
 metadata:
   name: codegen-0508
   namespace: rhtap
+  annotations:
+    argocd/app-name: codegen-0508
+    janus-idp.io/tekton: codegen-0508
+    backstage.io/kubernetes-id: codegen-0508
+    backstage.io/kubernetes-namespace: rhtap-app 
+    app.kubernetes.io/part-of: codegen-0508
   labels:
     argocd/app-name: codegen-0508
     janus-idp.io/tekton: codegen-0508
